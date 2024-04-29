@@ -1,32 +1,51 @@
-# Prerequisites
-*.d
+# Node.js
+node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build files
+build/
+dist/
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Environment variables
+.env
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Dependency directories
+.pnp/
+.pnp.js
+
+# IDE and text editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Cache files
+*.log
+*.cache
+*.swp
+*.tmp
+
+# Miscellaneous
+*.bak
+*.backup
+*.class
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.jar
+*.min.*
+*.msi
+*.orig
+*.sql
+*.tgz
+*.zip
